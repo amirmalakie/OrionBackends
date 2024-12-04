@@ -7,20 +7,18 @@ const dashboard = new ParseDashboard({
       serverURL: 'http://localhost:1337/parse',
       appId: 'myAppId',
       masterKey: 'myMasterKey',
-      appName: 'اپلیکیشن من'
+      appName: 'Orion'
     }
   ],
   users: [
     {
       user: 'admin',
-      pass: 'رمز عبور قوی'
+      pass: 'admin',
     }
   ],
   
   // تنظیمات دسترسی
-  useEncryptedPasswords: false,
-  trustProxy: 1,
-  
+  useEncryptedPasswords: false,  
   // تنظیمات ظاهری
   theme: {
     primaryColor: '#168eea',
