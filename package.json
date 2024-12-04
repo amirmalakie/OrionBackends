@@ -1,0 +1,20 @@
+{
+  "name": "parse-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start:server": "node server/index.js",
+    "start:dashboard": "node dashboard/index.js",
+    "dev": "concurrently \"npm run start:server\" \"npm run start:dashboard\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.1",
+    "mongodb": "^6.11.0",
+    "parse-dashboard": "^6.0.0",
+    "parse-server": "^7.3.0"
+  }
+}
